@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media print {
+    /* IMPRESSÃO */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TABLET */
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* DESKTOP */
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* GRANDES TELAS */
+    main {
+        margin-top: 2rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
+        border-radius: 0.4rem;
+        width: 50rem;
+    }
+
+    article {
+        background-color: red;
+    }
+
+    .sesao-inicial {
+        background-color: green;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 44rem;
+
+    }
+    .bloco-artigo { }
+    h1 {
+        font-size: 1.5rem;
+        color: #53a7a7;
+    }
+    
+    h2 {
+        color: #c7d972;
+        font-size: 1rem;
+    }
+    
+    .p-1 {
+        font-size: 1rem;
+        color: #a4a6ac;
+        background-color: #2bb3b100;
+        line-height: 1.8rem;
+        height: 9rem;
+    }
+
+    .sesao-de-grupamento {
+        display: flex;
+        flex-direction: row;
+    }
+}
