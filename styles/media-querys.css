@@ -6,13 +6,119 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* TABLET */
+    main {
+        margin-top: 2rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
+        border-radius: 0.4rem;
+        width: 50rem;
+    }
 
+    article { }
+
+    .sesao-inicial {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 44rem;
+
+        height: 12rem;
+
+    }
+    .bloco-artigo {
+        width: 30rem;
+     }
+    h1 {
+        font-size: 1.6rem;
+        color: #53a7a7;
+    }
+    
+    h2 {
+        color: #c7d972;
+        font-size: 1.2rem;
+    }
+    
+    .p-1 {
+        font-size: 1.1rem;
+        color: #a4a6ac;
+        line-height: 1.5rem;
+        width: 37rem;
+        height: 9rem;
+    }
+
+    .sesao-de-grupamento {
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+        width: 50rem;
+    }
+    .sesao-meio{
+        width: 25rem;
+    }
+    .texto-sesao{
+        width: 25rem;
+    }
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /* DESKTOP */
+    main {
+        margin-top: 2rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
+        border-radius: 0.4rem;
+        width: 50rem;
+    }
 
+    article { }
+
+    .sesao-inicial {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 44rem;
+
+        height: 12rem;
+
+    }
+    .bloco-artigo {
+        width: 30rem;
+     }
+    h1 {
+        font-size: 1.6rem;
+        color: #53a7a7;
+    }
+    
+    h2 {
+        color: #c7d972;
+        font-size: 1.2rem;
+    }
+    
+    .p-1 {
+        font-size: 1.1rem;
+        color: #a4a6ac;
+        line-height: 1.5rem;
+        width: 37rem;
+        height: 9rem;
+    }
+
+    .sesao-de-grupamento {
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+        width: 50rem;
+    }
+    .sesao-meio{
+        width: 25rem;
+    }
+    .texto-sesao{
+        width: 25rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
