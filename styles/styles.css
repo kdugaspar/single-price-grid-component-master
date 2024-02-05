@@ -1,19 +1,29 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 *{
 padding: 0;
-margin: 0;
+margin: 0.3rem;
 }
 
 body{
     font-size: 62.5%;
+    font-family: 'Karla', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
 }
 main{
     background-color: green;
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+}
+article{
+    background-color: aqua;
     width: 20rem;
-    
+    margin-top: 2.3rem;
+}
+h1{
+    font-size: 1.5rem;
 }
