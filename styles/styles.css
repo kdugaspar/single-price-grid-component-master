@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-*{
-padding: 0;
-margin: 0;
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-body{
+body {
     font-size: 62.5%;
     font-family: 'Karla', sans-serif;
     display: flex;
@@ -13,69 +14,108 @@ body{
     align-items: flex-start;
     min-height: 100vh;
 }
-main{
+
+main {
     margin-top: 2rem;
     background-color: white;
     display: flex;
     box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
     border-radius: 0.4rem;
 }
-.artigo-sesao-divisao-texto{
+
+.artigo-sesao-divisao-texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-article{
+
+article {
     background-color: white;
     width: 23rem;
     margin-top: 2.3rem;
     gap: 1rem;
 }
-.bloco-artigo{
+
+.bloco-artigo {
     width: 21rem;
 }
-h1{
+
+h1 {
     font-size: 1.5rem;
     color: #53a7a7;
 }
-h2{
-   color: #c7d972; 
-   font-size: 1.2rem;   
+
+h2 {
+    color: #c7d972;
+    font-size: 1.2rem;
 }
-.p-1{
-font-size: 1.1rem;
-color: #a4a6ac;
-background-color: #2bb3b1;
+
+.p-1 {
+    font-size: 1.1rem;
+    color: #a4a6ac;
+    background-color: #2bb3b100;
+    line-height: 1.8rem;
+    height: 9rem;
 }
-section{
-background-color: #2bb3b1;
+
+section {
+    background-color: #2bb3b1;
 }
-.divisao-sesao{
+
+.divisao-sesao {
     display: flex;
     flex-direction: column;
-    width: 21rem;
-background-color: wheat;
+    gap: 1rem;
+    width: 20rem;
+    margin-top: 2rem;
+    background-color: rgba(245, 222, 179, 0);
 }
-.Monthly{
-font-size: 1.2rem;
-color: white;
-}
-.divisao-preco{
 
+.Monthly {
+    font-size: 1.4rem;
+    color: white;
 }
-.preco{
 
+.divisao-preco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
-.dia{
 
+.preco {
+    color: white;
+    font-size: 2.5rem;
 }
-.texto-divisao{
-background-color: #4abebd;
-}
-h3{
 
+.month {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 1.3rem;
 }
-.p-2{
 
+.dia {
+    color: white;
+    font-size: 1.2rem;
 }
+
+input {
+    background-color: #bfdf32;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
+}
+
+.texto-divisao {
+    background-color: #4abebd;
+}
+
+h3 {}
+
+.p-2 {}
