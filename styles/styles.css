@@ -65,7 +65,7 @@ h2 {
 }
 
 .sesao-meio{
-    background-color: #b32b2b;
+    background-color: #2bb3b1;
     width: 23rem;
 }
 
@@ -74,15 +74,15 @@ h2 {
     flex-direction: column;
     gap: 1rem;
     width: 20rem;
+    height: 14rem;
     margin-top: 2rem;
-    background-color: #2bb3b1;
+    background-color: #b3b12b;
 }
 
 .Monthly {
     width: 20rem;
     font-size: 1.4rem;
     color: white;
-    background-color: #4abebd;
 }
 
 .divisao-preco {
@@ -91,7 +91,7 @@ h2 {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    background-color: #9eb41f;
+    
 }
 
 .preco {
@@ -124,18 +124,26 @@ input {
     width: 20rem;
 }
 
-.texto-divisao{
+.texto-sesao{
     background-color: #4abebd;
     height: 10rem;
-    width: 20rem;
+    width: 23rem;
+    height: 17rem;
 }
-
+.divisao-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 20rem;
+    background-color: white;
+}
 h3 {
     background-color: #a4a6ac;
+    font-size: 1.5rem;
 }
 
 .p-2 {
     background-color: rgb(162, 224, 17);
-    width: 15rem;
-    font-size: 0.8rem;
+    width: 13rem;
+    font-size: 1rem;
 }
