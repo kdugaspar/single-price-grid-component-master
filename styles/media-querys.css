@@ -28,34 +28,33 @@
         width: 50rem;
     }
 
-    article {
-        background-color: red;
-    }
+    article { }
 
     .sesao-inicial {
-        background-color: green;
         display: flex;
         align-items: flex-start;
         gap: 1rem;
         width: 44rem;
 
     }
-    .bloco-artigo { }
+    .bloco-artigo {
+        width: 30rem;
+     }
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: #53a7a7;
     }
     
     h2 {
         color: #c7d972;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .p-1 {
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: #a4a6ac;
-        background-color: #2bb3b100;
-        line-height: 1.8rem;
+        line-height: 1.5rem;
+        width: 37rem;
         height: 9rem;
     }
 
