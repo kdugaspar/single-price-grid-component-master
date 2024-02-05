@@ -6,6 +6,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* TABLET */
+    body{
+        background-color: #e7eff6;
+    }
     main {
         margin-top: 4rem;
         background-color: white;
@@ -68,6 +71,9 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /* DESKTOP */
+    body{
+        background-color: #e7eff6;
+    }
     main {
         margin-top: 4rem;
         background-color: white;
@@ -130,6 +136,9 @@
 @media screen and (min-width: 1200px) {
 
     /* GRANDES TELAS */
+    body{
+        background-color: #e7eff6;
+    }
     main {
         margin-top: 4rem;
         background-color: white;
