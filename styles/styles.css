@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 *{
 padding: 0;
-margin: 0.3rem;
+margin: 0;
 }
 
 body{
@@ -14,16 +14,62 @@ body{
     min-height: 100vh;
 }
 main{
-    background-color: green;
-    width: 23rem;
+    margin-top: 2rem;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
+    border-radius: 0.4rem;
 }
 article{
-    background-color: aqua;
-    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 23rem;
     margin-top: 2.3rem;
 }
+.bloco-artigo{
+    width: 21rem;
+}
 h1{
+    background-color: #c7d972;
     font-size: 1.5rem;
+    color: #53a7a7;
+}
+h2{
+   color: #c7d972; 
+   font-size: 1.2rem;   
+}
+.p-1{
+background-color: #fd0000;
+font-size: 1.1rem;
+color: #a4a6ac;
+}
+section{
+background-color: #2bb3b1;
+}
+.divisao-sesao{
+
+}
+.Monthly{
+
+}
+.divisao-preco{
+
+}
+.preco{
+
+}
+.dia{
+
+}
+.texto-divisao{
+background-color: #4abebd;
+}
+h3{
+
+}
+.p-2{
+
 }
