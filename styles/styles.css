@@ -20,20 +20,22 @@ main{
     box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
     border-radius: 0.4rem;
 }
-article{
+.artigo-sesao-divisao-texto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+article{
     background-color: white;
     width: 23rem;
     margin-top: 2.3rem;
+    gap: 1rem;
 }
 .bloco-artigo{
     width: 21rem;
 }
 h1{
-    background-color: #c7d972;
     font-size: 1.5rem;
     color: #53a7a7;
 }
@@ -42,18 +44,22 @@ h2{
    font-size: 1.2rem;   
 }
 .p-1{
-background-color: #fd0000;
 font-size: 1.1rem;
 color: #a4a6ac;
+background-color: #2bb3b1;
 }
 section{
 background-color: #2bb3b1;
 }
 .divisao-sesao{
-
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+background-color: wheat;
 }
 .Monthly{
-
+font-size: 1.2rem;
+color: white;
 }
 .divisao-preco{
 
