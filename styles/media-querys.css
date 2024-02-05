@@ -36,6 +36,8 @@
         gap: 1rem;
         width: 44rem;
 
+        height: 12rem;
+
     }
     .bloco-artigo {
         width: 30rem;
@@ -61,5 +63,13 @@
     .sesao-de-grupamento {
         display: flex;
         flex-direction: row;
+        background-color: yellow;
+        width: 50rem;
+    }
+    .sesao-meio{
+        width: 25rem;
+    }
+    .texto-sesao{
+        width: 25rem;
     }
 }
