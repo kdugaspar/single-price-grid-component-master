@@ -39,7 +39,7 @@ article {
 .sesao-inicial{
     display: flex;
     gap: 1rem;
-    background-color: rgba(222, 245, 11, 0);
+    background-color: rgba(222, 245, 11, 0.945);
     width: 20rem;
 }
 .bloco-artigo {
@@ -65,7 +65,8 @@ h2 {
 }
 
 .sesao-meio{
-    background-color: #2bb3b1;
+    background-color: #b32b2b;
+    width: 23rem;
 }
 
 .divisao-sesao {
@@ -78,12 +79,14 @@ h2 {
 }
 
 .Monthly {
+    width: 20rem;
     font-size: 1.4rem;
     color: white;
     background-color: #4abebd;
 }
 
 .divisao-preco {
+    width: 20rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -104,6 +107,7 @@ h2 {
 .dia {
     color: white;
     font-size: 1.2rem;
+    width: 20rem;
 }
 
 input {
@@ -117,6 +121,7 @@ input {
     font-weight: 600;
     color: white;
     box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
+    width: 20rem;
 }
 
 .texto-divisao{
