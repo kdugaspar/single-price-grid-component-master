@@ -7,7 +7,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* TABLET */
     main {
-        margin-top: 2rem;
+        margin-top: 4rem;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -69,7 +69,7 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /* DESKTOP */
     main {
-        margin-top: 2rem;
+        margin-top: 4rem;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -131,10 +131,13 @@
 
     /* GRANDES TELAS */
     main {
-        margin-top: 2rem;
+        margin-top: 4rem;
         background-color: white;
         display: flex;
         flex-direction: column;
+
+        align-items: center;
+
         box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
         border-radius: 0.4rem;
         width: 50rem;
