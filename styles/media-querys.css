@@ -60,6 +60,9 @@
     .texto-sesao{
         width: 25rem;
     }
+    .divisao-texto{
+        gap: 0rem; 
+    }
 
 }
 
@@ -119,6 +122,9 @@
     .texto-sesao{
         width: 25rem;
     }
+    .divisao-texto{
+        gap: 0rem; 
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -177,5 +183,8 @@
     }
     .texto-sesao{
         width: 25rem;
+    }
+    .divisao-texto{
+        gap: 0rem; 
     }
 }
