@@ -19,8 +19,10 @@ main {
     margin-top: 2rem;
     background-color: white;
     display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
     border-radius: 0.4rem;
+    width: 23rem;
 }
 
 .artigo-sesao-divisao-texto {
@@ -32,13 +34,16 @@ main {
 
 article {
     background-color: white;
-    width: 23rem;
     margin-top: 2.3rem;
-    gap: 1rem;
 }
-
+.sesao-inicial{
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(222, 245, 11, 0);
+    width: 20rem;
+}
 .bloco-artigo {
-    width: 21rem;
+    width: 20rem;
 }
 
 h1 {
@@ -48,18 +53,18 @@ h1 {
 
 h2 {
     color: #c7d972;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .p-1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #a4a6ac;
     background-color: #2bb3b100;
     line-height: 1.8rem;
     height: 9rem;
 }
 
-section {
+.sesao-meio{
     background-color: #2bb3b1;
 }
 
@@ -69,12 +74,13 @@ section {
     gap: 1rem;
     width: 20rem;
     margin-top: 2rem;
-    background-color: rgba(245, 222, 179, 0);
+    background-color: #2bb3b1;
 }
 
 .Monthly {
     font-size: 1.4rem;
     color: white;
+    background-color: #4abebd;
 }
 
 .divisao-preco {
@@ -82,6 +88,7 @@ section {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    background-color: #9eb41f;
 }
 
 .preco {
@@ -112,10 +119,18 @@ input {
     box-shadow: 0 4px 8px 0 #80808007, 0 6px 20px 0 #8080804d;
 }
 
-.texto-divisao {
+.texto-divisao{
     background-color: #4abebd;
+    height: 10rem;
+    width: 20rem;
 }
 
-h3 {}
+h3 {
+    background-color: #a4a6ac;
+}
 
-.p-2 {}
+.p-2 {
+    background-color: rgb(162, 224, 17);
+    width: 15rem;
+    font-size: 0.8rem;
+}
